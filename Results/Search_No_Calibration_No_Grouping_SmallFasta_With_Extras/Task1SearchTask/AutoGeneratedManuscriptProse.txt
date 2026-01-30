@@ -1,0 +1,15 @@
+The data analysis was performed using MetaMorpheus version 1.1.5, available at https://github.com/smith-chem-wisc/MetaMorpheus.
+
+The following search settings were used: Protease = trypsin; search for truncated protein and proteolysis products = False; maximum missed cleavages = 2; minimum peptide length = 7; maximum peptide length = unspecified; initiator methionine behavior = Variable; 
+fixed modifications = Carbamidomethyl on C, Carbamidomethyl on U; variable modifications = Oxidation on M; max mods per peptide = 2; max modification isoforms = 1024; precursor mass tolerance = ±5.0000 PPM; product mass tolerance = ±20.0000 PPM; report PSM ambiguity = True. The combined search database contained 23891 non-decoy protein entries including 0 contaminant sequences. Data files were processed on a computer running Microsoft Windows 10.0.26200 with a 64-bit 13th Gen Intel(R) Core(TM) i9-13900KS processor with 32 threads and 192GB installed RAM. 
+
+The total time to perform the Search task on 3 spectra file(s) was 0.71 minutes.
+
+Published works using MetaMorpheus software are encouraged to cite the appropriate publications listed in the reference guide, found here: https://github.com/smith-chem-wisc/MetaMorpheus/blob/master/README.md.
+
+Spectra files: 
+	H:\MetaMorpheusTest\TEMP_1_DIA_45.raw
+	H:\MetaMorpheusTest\TEMP_2_DIA_46.raw
+	H:\MetaMorpheusTest\TEMP_3_DIA_47.raw
+Databases:
+	H:\MetaMorpheusTest\Smaller_CHO.fasta Downloaded on: 01/30/2026 17:20:18	H:\MetaMorpheusTest\extras.fasta Downloaded on: 01/30/2026 17:20:18

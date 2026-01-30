@@ -1,0 +1,134 @@
+MetaMorpheus: version 1.1.5
+Time to run task: 00:00:39.7434379
+
+--------------------------------------------------
+
+All target PSMs with q-value <= 0.01: 242
+All target peptides with q-value <= 0.01: 0
+All target protein groups with q-value <= 0.01 (1% FDR): 14
+All Precursors: 204336
+All MS2 Scans: 122457
+
+TEMP_1_DIA_45 - Target PSMs with q-value <= 0.01: 0
+TEMP_1_DIA_45 - Target peptides with q-value <= 0.01: 0
+
+TEMP_1_DIA_45 - Precursors: 68841
+TEMP_1_DIA_45 - MS2 Scans: 40868
+
+TEMP_2_DIA_46 - Target PSMs with q-value <= 0.01: 0
+TEMP_2_DIA_46 - Target peptides with q-value <= 0.01: 0
+
+TEMP_2_DIA_46 - Precursors: 68081
+TEMP_2_DIA_46 - MS2 Scans: 40813
+
+TEMP_3_DIA_47 - Target PSMs with q-value <= 0.01: 0
+TEMP_3_DIA_47 - Target peptides with q-value <= 0.01: 0
+
+TEMP_3_DIA_47 - Precursors: 67414
+TEMP_3_DIA_47 - MS2 Scans: 40776
+
+
+
+--------------------------------------------------
+
+Engine Results:
+
+Engine type: DatabaseLoadingEngine
+Time to run engine: 00:00:08.5430762
+Databases loaded:
+	Smaller_CHO.fasta: 47776 Proteins
+		23888 Target Proteins 	 23888 Decoy Proteins
+Total Proteins loaded: 47776
+Total Proteins removed by sanitization: 0
+Total Proteins renamed by sanitization: 0
+Total decoy Proteins scrambled due to homology: 808
+Total Proteins remaining: 47776
+
+
+Engine type: ClassicSearchEngine
+Time to run engine: 00:00:03.7096214
+
+Engine type: ClassicSearchEngine
+Time to run engine: 00:00:05.1986032
+
+Engine type: ClassicSearchEngine
+Time to run engine: 00:00:03.4760677
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.8484222
+PSMs within 1% FDR: 244
+Delta Score Used for FDR Analysis: False
+Posterior error probability analysis failed. This can occur for small data sets when some sample groups are missing positive or negative training examples.
+
+
+Engine type: DisambiguationEngine
+Time to run engine: 00:00:00.4811634
+Ambiguous Peptides removed QValueNotch: 1
+
+
+Engine type: ModificationAnalysisEngine
+Time to run engine: 00:00:00.0048904
+Localized mods seen below q-value 0.01:
+	Carbamidomethyl on C	1
+	Oxidation on M	1
+(Approx) Additional localized but protein ambiguous mods seen below q-value 0.01:
+
+(Approx) Additional unlocalized mods seen below q-value 0.01:
+
+(Approx) Additional unlocalized modification formulas seen below q-value 0.01:
+
+
+All mods in database limited to peptides observed in the results:
+
+
+
+Engine type: ProteinParsimonyEngine
+Time to run engine: 00:00:00.0092677
+
+
+Engine type: ProteinScoringAndFdrEngine
+Time to run engine: 00:00:00.0072543
+Number of proteins within 1% FDR: 14
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0297949
+PSMs within 1% FDR: 0
+Delta Score Used for FDR Analysis: False
+
+
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0417970
+PSMs within 1% FDR: 0
+Delta Score Used for FDR Analysis: False
+
+
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0759028
+PSMs within 1% FDR: 0
+Delta Score Used for FDR Analysis: False
+
+
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0201188
+peptides within 1% FDR: 0
+Delta Score Used for FDR Analysis: False
+
+
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0296884
+peptides within 1% FDR: 0
+Delta Score Used for FDR Analysis: False
+
+
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0299344
+peptides within 1% FDR: 0
+Delta Score Used for FDR Analysis: False
+
+
+

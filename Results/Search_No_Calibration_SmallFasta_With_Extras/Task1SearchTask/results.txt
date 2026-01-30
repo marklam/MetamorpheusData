@@ -1,0 +1,148 @@
+MetaMorpheus: version 1.1.5
+Time to run task: 00:00:56.2535171
+
+--------------------------------------------------
+
+All target PSMs with q-value <= 0.01: 3519
+All target peptides with q-value <= 0.01: 0
+All target protein groups with q-value <= 0.01 (1% FDR): 16
+All Precursors: 204336
+All MS2 Scans: 122457
+
+TEMP_1_DIA_45 - Target PSMs with q-value <= 0.01: 1260
+TEMP_1_DIA_45 - Target peptides with q-value <= 0.01: 0
+TEMP_1_DIA_45 - Target protein groups within 1 % FDR: 12
+TEMP_1_DIA_45 - Precursors: 68841
+TEMP_1_DIA_45 - MS2 Scans: 40868
+
+TEMP_2_DIA_46 - Target PSMs with q-value <= 0.01: 1097
+TEMP_2_DIA_46 - Target peptides with q-value <= 0.01: 0
+TEMP_2_DIA_46 - Target protein groups within 1 % FDR: 20
+TEMP_2_DIA_46 - Precursors: 68081
+TEMP_2_DIA_46 - MS2 Scans: 40813
+
+TEMP_3_DIA_47 - Target PSMs with q-value <= 0.01: 896
+TEMP_3_DIA_47 - Target peptides with q-value <= 0.01: 0
+TEMP_3_DIA_47 - Target protein groups within 1 % FDR: 11
+TEMP_3_DIA_47 - Precursors: 67414
+TEMP_3_DIA_47 - MS2 Scans: 40776
+
+
+
+--------------------------------------------------
+
+Engine Results:
+
+Engine type: DatabaseLoadingEngine
+Time to run engine: 00:00:09.2069934
+Databases loaded:
+	Smaller_CHO.fasta: 47776 Proteins
+		23888 Target Proteins 	 23888 Decoy Proteins
+	extras.fasta: 6 Proteins
+		3 Target Proteins 	 3 Decoy Proteins
+Total Proteins loaded: 47782
+Total Proteins removed by sanitization: 0
+Total Proteins renamed by sanitization: 0
+Total decoy Proteins scrambled due to homology: 808
+Total Proteins remaining: 47782
+
+
+Engine type: ClassicSearchEngine
+Time to run engine: 00:00:04.1405132
+
+Engine type: ClassicSearchEngine
+Time to run engine: 00:00:06.0260832
+
+Engine type: ClassicSearchEngine
+Time to run engine: 00:00:05.8748907
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:02.1946441
+PSMs within 1% FDR: 3568
+Delta Score Used for FDR Analysis: False
+Posterior error probability analysis failed. This can occur for small data sets when some sample groups are missing positive or negative training examples.
+
+
+Engine type: DisambiguationEngine
+Time to run engine: 00:00:01.0384049
+Ambiguous Peptides removed QValueNotch: 1
+
+
+Engine type: ModificationAnalysisEngine
+Time to run engine: 00:00:00.0140726
+Localized mods seen below q-value 0.01:
+	Carbamidomethyl on C	16
+	Oxidation on M	10
+(Approx) Additional localized but protein ambiguous mods seen below q-value 0.01:
+	Carbamidomethyl on C	1
+(Approx) Additional unlocalized mods seen below q-value 0.01:
+
+(Approx) Additional unlocalized modification formulas seen below q-value 0.01:
+
+
+All mods in database limited to peptides observed in the results:
+
+
+
+Engine type: ProteinParsimonyEngine
+Time to run engine: 00:00:00.0619740
+
+
+Engine type: ProteinScoringAndFdrEngine
+Time to run engine: 00:00:00.0715909
+Number of proteins within 1% FDR: 16
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0362919
+PSMs within 1% FDR: 965
+Delta Score Used for FDR Analysis: False
+
+
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0417723
+PSMs within 1% FDR: 1350
+Delta Score Used for FDR Analysis: False
+
+
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0360454
+PSMs within 1% FDR: 1183
+Delta Score Used for FDR Analysis: False
+
+
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0177825
+peptides within 1% FDR: 0
+Delta Score Used for FDR Analysis: False
+
+
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0242702
+peptides within 1% FDR: 0
+Delta Score Used for FDR Analysis: False
+
+
+
+Engine type: FdrAnalysisEngine
+Time to run engine: 00:00:00.0240830
+peptides within 1% FDR: 0
+Delta Score Used for FDR Analysis: False
+
+
+
+Engine type: ProteinScoringAndFdrEngine
+Time to run engine: 00:00:00.0055362
+Number of proteins within 1% FDR: 11
+
+Engine type: ProteinScoringAndFdrEngine
+Time to run engine: 00:00:00.0233280
+Number of proteins within 1% FDR: 12
+
+Engine type: ProteinScoringAndFdrEngine
+Time to run engine: 00:00:00.0255025
+Number of proteins within 1% FDR: 20
+

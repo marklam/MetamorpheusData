@@ -1,0 +1,5 @@
+mkdir Results
+"C:\Program Files\MetaMorpheus\CMD.exe" -t DefaultSearchTask_No_Grouping.toml -s TEMP_1_DIA_45.raw TEMP_2_DIA_46.raw TEMP_3_DIA_47.raw -d Smaller_CHO.fasta -o Results\Search_No_Calibration_No_Grouping_SmallFasta
+"C:\Program Files\MetaMorpheus\CMD.exe" -t DefaultSearchTask_No_Grouping.toml -s TEMP_1_DIA_45.raw TEMP_2_DIA_46.raw TEMP_3_DIA_47.raw -d Smaller_CHO.fasta extras.fasta -o Results\Search_No_Calibration_No_Grouping_SmallFasta_With_Extras
+"C:\Program Files\MetaMorpheus\CMD.exe" -t DefaultSearchTask.toml -s TEMP_1_DIA_45.raw TEMP_2_DIA_46.raw TEMP_3_DIA_47.raw -d Smaller_CHO.fasta -o Results\Search_No_Calibration_SmallFasta
+"C:\Program Files\MetaMorpheus\CMD.exe" -t DefaultSearchTask.toml -s TEMP_1_DIA_45.raw TEMP_2_DIA_46.raw TEMP_3_DIA_47.raw -d Smaller_CHO.fasta extras.fasta -o Results\Search_No_Calibration_SmallFasta_With_Extras
